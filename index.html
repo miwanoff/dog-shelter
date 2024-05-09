@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./validate.css" />
+    <link rel="stylesheet" href="./slider.css">
+  </head>
+  <body id="top">
+    <div id="hero-section">
+      <nav>
+        <a href="index.html" class="logo"
+          ><img src="./images/logo.png" alt="" />Pawsome Pals</a
+        >
+        <input type="checkbox" id="menu_toggle" />
+        <label for="menu_toggle" class="menu_btn"><span></span></label>
+        <ul class="menu">
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#dogs">Знайти друга</a></li>
+          <li><a href="#help">Як допомогти</a></li>
+          <li><a href="#testimonials">Відгуки</a></li>
+          <li><a href="#contacts" class="button">Контакти</a></li>
+        </ul>
+      </nav>
+      <div id="hero">
+        <header>
+          <h1>Ласкаво просимо<br />до притулку для собак<br />Paws Pals!</h1>
+          <p class="description">
+            Наша місія — рятувати собак і допомагати їм зустріти люблячих
+            господарів
+          </p>
+          <a href="#" class="button"
+            ><div class="logo-img"></div>
+            Знайти друга</a
+          >
+        </header>
+      </div>
+    </div>
+    <div id="about">
+      <div class="col-4">
+        <h2>Про нас</h2>
+        <p>
+          У Pawsome Pals ми прагнемо рятувати та знаходити люблячі домівки для
+          потребуючих собак.
+        </p>
+        <p>
+          З моменту заснування в 2005 році ми надаємо притулок, турботу та
+          співчуття незліченній кількості собак, допомагаючи їм знайти свої
+          вічні сім’ї.
+        </p>
+        <p>
+          Наша місія популяризувати відповідальне володіння домашніми тваринами
+          та змінити життя як людей, так і наших чотирилапих
+        </p>
+      </div>
+      <div class="col-8">
+        <img src="./images/dog10.png" alt="" id="slider" />
+        <button onclick="prev()" class="arrow">&lt;</button>
+        <button onclick="next()" class="arrow">&gt;</button>
+      </div>
+    </div>
+    <div id="dogs">
+      <div class="section-heading">
+        <h2>Знайти друга</h2>
+      </div>
+      <div class="cards">
+        <div class="card-row">
+          <div class="card">
+            <img src="./images/dog1.png" alt="" />
+            <div class="card-info">
+              <h4>Sed ut perspiciatis</h4>
+              <div class="card-text">
+                <p><strong>Вік: </strong>1 рік</p>
+                <p><strong>Порода: </strong>mix</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/dog2.png" alt="" />
+            <div class="card-info">
+              <h4>Temporibus!</h4>
+              <div class="card-text">
+                <p><strong>Вік: </strong>1 рік</p>
+                <p><strong>Порода: </strong>mix</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/dog3.png" alt="" />
+            <div class="card-info">
+              <h4>Magnam?</h4>
+              <div class="card-text">
+                <p><strong>Вік: </strong>1 рік</p>
+                <p><strong>Порода: </strong>mix</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="./images/dog1.png" alt="" />
+            <div class="card-info">
+              <h4>Iste.</h4>
+              <div class="card-text">
+                <p><strong>Вік: </strong>1 рік</p>
+                <p><strong>Порода: </strong>mix</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/dog2.png" alt="" />
+            <div class="card-info">
+              <h4>Aspernatur.</h4>
+              <div class="card-text">
+                <p><strong>Вік: </strong>1 рік</p>
+                <p><strong>Порода: </strong>mix</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/dog3.png" alt="" />
+            <div class="card-info">
+              <h4>Accusamus!</h4>
+              <div class="card-text">
+                <p><strong>Вік: </strong>1 рік</p>
+                <p><strong>Порода: </strong>mix</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials">
+      <div class="section-heading">
+        <h2>Відгуки</h2>
+      </div>
+      <div class="cards">
+        <div class="card-row">
+          <div class="card">
+            <img src="./images/dog11.jpg" alt="" />
+            <div class="card-info">
+              <h4>Sarah Rodriguez</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/dog12.png" alt="" />
+            <div class="card-info">
+              <h4>Sarah Rodriguez</h4>
+              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</p>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/dog10.png" alt="" />
+            <div class="card-info">
+              <h4>Sarah Rodriguez</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="help">
+      <div class="section-heading">
+        <h2>Змініть життя наших собак!</h2>
+      </div>
+      <div id="volontiers" class="help-frame">
+        <div class="col-6">
+          <h2>Волонтерство</h2>
+          <p>
+            Приєднуйтеся до нашої відданої команди волонтерів і допоможіть
+            доглядати за нашими собаками.
+          </p>
+          <p>
+            Незалежно від того, чи можете ви приділити кілька годин на тиждень
+            або кілька днів на місяць, ваша підтримка матиме значний вплив
+          </p>
+        </div>
+        <div class="col-6">
+          <img src="./images/dog10.png" alt="" />
+        </div>
+      </div>
+      <div id="parents" class="help-frame">
+        <div class="col-6">
+          <img src="./images/dog11.jpg" alt="" />
+        </div>
+
+        <div class="col-6">
+          <h2>Прийомні батьки</h2>
+          <p>
+            Подумайте про те, щоб стати прийомним батьком для собаки, яка цього
+            потребує
+          </p>
+          <p>
+            Прийомні батьки забезпечують тимчасовий догляд і турботливе
+            середовище, поки ми не знайдемо для нього постійний дім
+          </p>
+        </div>
+      </div>
+      <div id="charity" class="help-frame">
+        <div class="col-6">
+          <h2>Пожертвовання</h2>
+          <p>
+            Ваші щедрі пожертви допомагають нам забезпечити їжу, притулок,
+            медичну допомогу та збагачення наших собак.
+          </p>
+          <p>
+            Кожен внесок, незалежно від розміру, допомагає нам врятувати більше
+            життів
+          </p>
+        </div>
+        <div class="col-6">
+          <img src="./images/dog12.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="contacts">
+      <div class="section-heading">
+        <h2>Зв’яжіться з нами</h2>
+      </div>
+      <div id="contacts-content" class="contact-frame">
+        <div class="col-5">
+          <h4>Контакти</h4>
+          <div class="contact-logo-text">
+            <a href="index.html" class="logo"
+              ><img src="./images/logo.png" alt="" />Pawsome Pals</a
+            >
+            <ul>
+              <li>Сумська, 47</li>
+              <li>6001</li>
+              <li>Харків</li>
+              <li>Україна</li>
+              <li><a href="mailto:mail@gmail.com">mail@gmail.com</a></li>
+              <li><a href="tel:+380123456789">+380 123 456 789</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <h4>Написати листа</h4>
+          <form action="./hello.html" method="get">
+            <input
+              type="text"
+              name="name"
+              placeholder="Повне ім'я"
+              pattern="[А-Яа-яA-Za-z ]{3,30}"
+              required
+            />
+            <input type="email" name="surname" placeholder="email" required />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button type="submit" name="send" class="button">
+              Відправити листа
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#top" id="up"><img src="./images/up.svg" alt="" /></a>
+      <div class="footer-frame">
+        <div class="col-3">
+          <h5>Де нас знайти</h5>
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Blanditiis, ipsam?</li>
+            <li>Quisquam, libero?</li>
+            <li>Consequuntur, assumenda!</li>
+            <li>Atque, voluptatum.</li>
+            <li>Dolor, maxime?</li>
+            <li>Atque, magnam?</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul class="social-icons">
+            <li>
+              <a href=""><img src="./images/Instagram.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/telegram.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>Знайти друга</h5>
+          <ul>
+            <li>Lorem</li>
+            <li>Eos</li>
+            <li>Nulla</li>
+            <li>Blanditiis</li>
+            <li>Maxime</li>
+            <li>Omnis</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>Про нас</h5>
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Blanditiis, ipsam?</li>
+            <li>Quisquam, libero?</li>
+            <li>Consequuntur, assumenda!</li>
+            <li>Atque, voluptatum.</li>
+            <li>Dolor, maxime?</li>
+            <li>Atque, magnam?</li>
+          </ul>
+
+          <p style="text-align: right; font-weight: 600">Logo ©Copyright</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./slider.js"></script>
+  </body>
+</html>
